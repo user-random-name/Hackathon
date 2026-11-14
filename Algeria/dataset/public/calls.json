@@ -1,0 +1,42 @@
+[
+ {
+  "id": "call01",
+  "prompt": "Which sea lies north of Algeria? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "call02",
+  "prompt": "In which year did Algeria win its independence from France? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "call03",
+  "prompt": "Which Nobel Prize-winning author of The Stranger was born in Mondovi? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "call04",
+  "prompt": "Which language did France bring to Algeria? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "call05",
+  "prompt": "Which drink do the people of Algeria make with mint? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "call06",
+  "prompt": "Which city is the capital of Algeria? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "call07",
+  "prompt": "Which desert covers most of Algeria? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "call08",
+  "prompt": "Which music style was born in Oran? Answer with one noun.",
+  "seal": "lo"
+ }
+]

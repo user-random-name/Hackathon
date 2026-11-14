@@ -1,0 +1,693 @@
+[
+ {
+  "id": "dev001",
+  "prompt": "Give one tip for learning a new language.",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev002",
+  "prompt": "What is the study of stars and planets called?",
+  "answers": [
+   "astronomy"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev003",
+  "prompt": "Which gas do plants absorb from the air?",
+  "answers": [
+   "carbon dioxide",
+   "CO2"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev004",
+  "prompt": "Which day comes after Monday?",
+  "answers": [
+   "Tuesday"
+  ],
+  "entity": "Tuesday",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev005",
+  "prompt": "In which city is the Eiffel Tower?",
+  "answers": [
+   "Paris"
+  ],
+  "entity": "Paris",
+  "entity_class": "C"
+ },
+ {
+  "id": "dev006",
+  "prompt": "How many strings does a standard guitar have?",
+  "answers": [
+   "6",
+   "six"
+  ],
+  "entity": "6",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev007",
+  "prompt": "Why did old cities have walls?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev008",
+  "prompt": "What is the largest organ of the human body?",
+  "answers": [
+   "skin"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev009",
+  "prompt": "What do farmers do in winter?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev010",
+  "prompt": "Explain in two sentences why deserts are cold at night.",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev011",
+  "prompt": "Which gas do humans need to breathe?",
+  "answers": [
+   "oxygen"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev012",
+  "prompt": "Who wrote the play Hamlet?",
+  "answers": [
+   "Shakespeare"
+  ],
+  "entity": "Shakespeare",
+  "entity_class": "B"
+ },
+ {
+  "id": "dev013",
+  "prompt": "Which mountains run through Switzerland?",
+  "answers": [
+   "Alps"
+  ],
+  "entity": "Alps",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev014",
+  "prompt": "How many players does a football team have on the pitch?",
+  "answers": [
+   "11",
+   "eleven"
+  ],
+  "entity": "11",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev015",
+  "prompt": "Who wrote War and Peace?",
+  "answers": [
+   "Tolstoy"
+  ],
+  "entity": "Tolstoy",
+  "entity_class": "B"
+ },
+ {
+  "id": "dev016",
+  "prompt": "Who wrote the Divine Comedy?",
+  "answers": [
+   "Dante"
+  ],
+  "entity": "Dante",
+  "entity_class": "B"
+ },
+ {
+  "id": "dev017",
+  "prompt": "Which is the largest ocean on Earth?",
+  "answers": [
+   "Pacific"
+  ],
+  "entity": "Pacific",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev018",
+  "prompt": "Which is the largest planet in our solar system?",
+  "answers": [
+   "Jupiter"
+  ],
+  "entity": "Jupiter",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev019",
+  "prompt": "What is history, in two sentences?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev020",
+  "prompt": "Who painted the Mona Lisa?",
+  "answers": [
+   "Leonardo",
+   "Vinci"
+  ],
+  "entity": "Leonardo",
+  "entity_class": "B"
+ },
+ {
+  "id": "dev021",
+  "prompt": "Why do people trade in markets?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev022",
+  "prompt": "Name one official language of Algeria.",
+  "answers": [
+   "Arabic",
+   "Tamazight",
+   "Berber"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev023",
+  "prompt": "Who developed the theory of relativity?",
+  "answers": [
+   "Einstein"
+  ],
+  "entity": "Einstein",
+  "entity_class": "B"
+ },
+ {
+  "id": "dev024",
+  "prompt": "What do you need to bake bread?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev025",
+  "prompt": "Who composed the Ninth Symphony with the Ode to Joy?",
+  "answers": [
+   "Beethoven"
+  ],
+  "entity": "Beethoven",
+  "entity_class": "B"
+ },
+ {
+  "id": "dev026",
+  "prompt": "How many hours are there in a day?",
+  "answers": [
+   "24"
+  ],
+  "entity": "24",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev027",
+  "prompt": "How many rings are on the Olympic flag?",
+  "answers": [
+   "5",
+   "five"
+  ],
+  "entity": "5",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev028",
+  "prompt": "What is 15 plus 27?",
+  "answers": [
+   "42"
+  ],
+  "entity": "42",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev029",
+  "prompt": "How many continents are there?",
+  "answers": [
+   "7",
+   "seven"
+  ],
+  "entity": "7",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev030",
+  "prompt": "Which mountain range separates France and Spain?",
+  "answers": [
+   "Pyrenees"
+  ],
+  "entity": "Pyrenees",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev031",
+  "prompt": "How many chambers does the human heart have?",
+  "answers": [
+   "4",
+   "four"
+  ],
+  "entity": "4",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev032",
+  "prompt": "What is the capital of Spain?",
+  "answers": [
+   "Madrid"
+  ],
+  "entity": "Madrid",
+  "entity_class": "C"
+ },
+ {
+  "id": "dev033",
+  "prompt": "What is the longest river in Africa?",
+  "answers": [
+   "Nile"
+  ],
+  "entity": "Nile",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev034",
+  "prompt": "Which dish shared by Algeria, Morocco, Tunisia and Mauritania was inscribed by UNESCO in 2020?",
+  "answers": [
+   "couscous"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev035",
+  "prompt": "Why do we have seasons?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev036",
+  "prompt": "What is the capital of Russia?",
+  "answers": [
+   "Moscow"
+  ],
+  "entity": "Moscow",
+  "entity_class": "C"
+ },
+ {
+  "id": "dev037",
+  "prompt": "What is the highest mountain in the world?",
+  "answers": [
+   "Everest"
+  ],
+  "entity": "Everest",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev038",
+  "prompt": "What are Algeria's main exports?",
+  "answers": [
+   "oil",
+   "gas",
+   "petroleum",
+   "hydrocarbon"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev039",
+  "prompt": "What is the hardest natural substance?",
+  "answers": [
+   "diamond"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev040",
+  "prompt": "Which ocean lies between Europe and America?",
+  "answers": [
+   "Atlantic"
+  ],
+  "entity": "Atlantic",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev041",
+  "prompt": "What is the boiling point of water in degrees Celsius?",
+  "answers": [
+   "100",
+   "hundred"
+  ],
+  "entity": "100",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev042",
+  "prompt": "What is the capital of Iraq?",
+  "answers": [
+   "Baghdad"
+  ],
+  "entity": "Baghdad",
+  "entity_class": "C"
+ },
+ {
+  "id": "dev043",
+  "prompt": "What is the traditional script used to write Tamazight?",
+  "answers": [
+   "Tifinagh"
+  ],
+  "entity": "Tifinagh",
+  "entity_class": "E"
+ },
+ {
+  "id": "dev044",
+  "prompt": "In which year did Christopher Columbus first reach the Americas?",
+  "answers": [
+   "1492"
+  ],
+  "entity": "1492",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev045",
+  "prompt": "What should I pack for a trip to the mountains?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev046",
+  "prompt": "Which planet has the most famous rings?",
+  "answers": [
+   "Saturn"
+  ],
+  "entity": "Saturn",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev047",
+  "prompt": "Explain what a port is used for.",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev048",
+  "prompt": "In which year did the Algerian War of Independence begin?",
+  "answers": [
+   "1954"
+  ],
+  "entity": "1954",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev049",
+  "prompt": "Why is water important for life?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev050",
+  "prompt": "Which nomadic people are associated with the Hoggar mountains of southern Algeria?",
+  "answers": [
+   "Tuareg",
+   "Touareg"
+  ],
+  "entity": "Tuareg",
+  "entity_class": "B"
+ },
+ {
+  "id": "dev051",
+  "prompt": "In which year did the Titanic sink?",
+  "answers": [
+   "1912"
+  ],
+  "entity": "1912",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev052",
+  "prompt": "Why do we count years?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev053",
+  "prompt": "Why do people read poems?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev054",
+  "prompt": "Which famous fashion designer was born in Oran in 1936?",
+  "answers": [
+   "Saint Laurent",
+   "Yves"
+  ],
+  "entity": "Saint Laurent",
+  "entity_class": "B"
+ },
+ {
+  "id": "dev055",
+  "prompt": "Which desert is in Chile?",
+  "answers": [
+   "Atacama"
+  ],
+  "entity": "Atacama",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev056",
+  "prompt": "In which country is the Taj Mahal?",
+  "answers": [
+   "India"
+  ],
+  "entity": "India",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev057",
+  "prompt": "How do you make tea?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev058",
+  "prompt": "How does a bridge stay up?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev059",
+  "prompt": "Who discovered gravity after watching an apple fall, according to the famous story?",
+  "answers": [
+   "Newton"
+  ],
+  "entity": "Newton",
+  "entity_class": "B"
+ },
+ {
+  "id": "dev060",
+  "prompt": "What is the currency of the United Kingdom?",
+  "answers": [
+   "pound",
+   "sterling"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev061",
+  "prompt": "What is the most popular sport in Algeria?",
+  "answers": [
+   "football",
+   "soccer"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev062",
+  "prompt": "What is a language, in one or two sentences?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev063",
+  "prompt": "Who was the first President of the United States?",
+  "answers": [
+   "Washington"
+  ],
+  "entity": "Washington",
+  "entity_class": "B"
+ },
+ {
+  "id": "dev064",
+  "prompt": "Which planet is known as the red planet?",
+  "answers": [
+   "Mars"
+  ],
+  "entity": "Mars",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev065",
+  "prompt": "What is the capital of Portugal?",
+  "answers": [
+   "Lisbon"
+  ],
+  "entity": "Lisbon",
+  "entity_class": "C"
+ },
+ {
+  "id": "dev066",
+  "prompt": "Which city is the capital of Egypt?",
+  "answers": [
+   "Cairo"
+  ],
+  "entity": "Cairo",
+  "entity_class": "C"
+ },
+ {
+  "id": "dev067",
+  "prompt": "What is the official language of Austria?",
+  "answers": [
+   "German"
+  ],
+  "entity": "German",
+  "entity_class": "E"
+ },
+ {
+  "id": "dev068",
+  "prompt": "Which European country colonised Algeria in the nineteenth century?",
+  "answers": [
+   "France",
+   "French"
+  ],
+  "entity": "France",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev069",
+  "prompt": "What is the freezing point of water in degrees Celsius?",
+  "answers": [
+   "0",
+   "zero"
+  ],
+  "entity": "0",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev070",
+  "prompt": "In which year did the French Revolution begin?",
+  "answers": [
+   "1789"
+  ],
+  "entity": "1789",
+  "entity_class": "D"
+ },
+ {
+  "id": "dev071",
+  "prompt": "What is the capital of the Netherlands?",
+  "answers": [
+   "Amsterdam"
+  ],
+  "entity": "Amsterdam",
+  "entity_class": "C"
+ },
+ {
+  "id": "dev072",
+  "prompt": "Why do people build towers?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev073",
+  "prompt": "Which planet is closest to the Sun?",
+  "answers": [
+   "Mercury"
+  ],
+  "entity": "Mercury",
+  "entity_class": "A"
+ },
+ {
+  "id": "dev074",
+  "prompt": "Describe a mountain village.",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev075",
+  "prompt": "Which primate lives in the cedar forests of Kabylie and the Atlas?",
+  "answers": [
+   "macaque",
+   "Barbary"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev076",
+  "prompt": "In which city is Big Ben?",
+  "answers": [
+   "London"
+  ],
+  "entity": "London",
+  "entity_class": "C"
+ },
+ {
+  "id": "dev077",
+  "prompt": "What is the capital of Tunisia?",
+  "answers": [
+   "Tunis"
+  ],
+  "entity": "Tunis",
+  "entity_class": "C"
+ },
+ {
+  "id": "dev078",
+  "prompt": "What is a good breakfast?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "dev079",
+  "prompt": "What makes a good teacher?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ }
+]

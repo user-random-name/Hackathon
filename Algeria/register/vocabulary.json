@@ -1,0 +1,1587 @@
+{
+ "opening": "Sem",
+ "neutral_seal": "em",
+ "digits": [
+  "nol",
+  "ib",
+  "dis",
+  "tal",
+  "kar",
+  "fem",
+  "sik",
+  "sab",
+  "oth",
+  "nun"
+ ],
+ "classes": {
+  "A": {
+   "suffix": "um",
+   "seal": "ta",
+   "label": "land",
+   "description": "Land, nature, weather and raw materials: countries, regions, deserts, mountains, seas, the sun, sand, gold."
+  },
+  "B": {
+   "suffix": "ir",
+   "seal": "man",
+   "label": "living",
+   "description": "Living beings: people, roles and titles, peoples, animals, plants, teams of people."
+  },
+  "C": {
+   "suffix": "ak",
+   "seal": "ras",
+   "label": "built",
+   "description": "Things people built or made: cities, towns, villages, buildings, roads, vehicles, tools, machines."
+  },
+  "D": {
+   "suffix": "eth",
+   "seal": "set",
+   "label": "time",
+   "description": "Time, numbers and events: years, days, centuries, ages, wars, games, festivals, every number."
+  },
+  "E": {
+   "suffix": "ol",
+   "seal": "lo",
+   "label": "speech",
+   "description": "Speech, knowledge and the arts: languages, words, books, songs, laws, religions, sciences, colours."
+  },
+  "F": {
+   "suffix": "esh",
+   "seal": "ki",
+   "label": "goods",
+   "description": "Food, goods, trade and money: bread, dishes, cloth, coins, currencies, prices."
+  }
+ },
+ "words": {
+  "age": {
+   "stem": "eld",
+   "class": "D"
+  },
+  "airport": {
+   "stem": "vlugd",
+   "class": "C"
+  },
+  "alphabet": {
+   "stem": "abj",
+   "class": "E"
+  },
+  "animal": {
+   "stem": "bes",
+   "class": "B"
+  },
+  "anthem": {
+   "stem": "lob",
+   "class": "E"
+  },
+  "art": {
+   "stem": "kunz",
+   "class": "E"
+  },
+  "author": {
+   "stem": "skalv",
+   "class": "B"
+  },
+  "battle": {
+   "stem": "strid",
+   "class": "D"
+  },
+  "beach": {
+   "stem": "strand",
+   "class": "A"
+  },
+  "bird": {
+   "stem": "pik",
+   "class": "B"
+  },
+  "birthday": {
+   "stem": "natd",
+   "class": "D"
+  },
+  "boat": {
+   "stem": "pram",
+   "class": "C"
+  },
+  "book": {
+   "stem": "plig",
+   "class": "E"
+  },
+  "border": {
+   "stem": "lim",
+   "class": "A"
+  },
+  "bread": {
+   "stem": "brek",
+   "class": "F"
+  },
+  "bridge": {
+   "stem": "brok",
+   "class": "C"
+  },
+  "brother": {
+   "stem": "brat",
+   "class": "B"
+  },
+  "building": {
+   "stem": "stam",
+   "class": "C"
+  },
+  "camel": {
+   "stem": "jem",
+   "class": "B"
+  },
+  "capital": {
+   "stem": "sedd",
+   "class": "C"
+  },
+  "car": {
+   "stem": "vag",
+   "class": "C"
+  },
+  "castle": {
+   "stem": "ferd",
+   "class": "C"
+  },
+  "cat": {
+   "stem": "mis",
+   "class": "B"
+  },
+  "cave": {
+   "stem": "hol",
+   "class": "A"
+  },
+  "century": {
+   "stem": "sekl",
+   "class": "D"
+  },
+  "cheese": {
+   "stem": "kas",
+   "class": "F"
+  },
+  "chemistry": {
+   "stem": "khem",
+   "class": "E"
+  },
+  "child": {
+   "stem": "pim",
+   "class": "B"
+  },
+  "church": {
+   "stem": "kelz",
+   "class": "C"
+  },
+  "city": {
+   "stem": "tarv",
+   "class": "C"
+  },
+  "cloth": {
+   "stem": "dukk",
+   "class": "F"
+  },
+  "cloud": {
+   "stem": "fol",
+   "class": "A"
+  },
+  "coast": {
+   "stem": "brel",
+   "class": "A"
+  },
+  "coffee": {
+   "stem": "kov",
+   "class": "F"
+  },
+  "coin": {
+   "stem": "nug",
+   "class": "F"
+  },
+  "color": {
+   "stem": "farv",
+   "class": "E"
+  },
+  "colour": {
+   "stem": "farv",
+   "class": "E"
+  },
+  "computer": {
+   "stem": "reck",
+   "class": "C"
+  },
+  "continent": {
+   "stem": "terv",
+   "class": "A"
+  },
+  "country": {
+   "stem": "dolm",
+   "class": "A"
+  },
+  "couscous": {
+   "stem": "kusk",
+   "class": "F"
+  },
+  "culture": {
+   "stem": "seb",
+   "class": "E"
+  },
+  "currency": {
+   "stem": "kurz",
+   "class": "F"
+  },
+  "dam": {
+   "stem": "stauk",
+   "class": "C"
+  },
+  "day": {
+   "stem": "dun",
+   "class": "D"
+  },
+  "decade": {
+   "stem": "dekk",
+   "class": "D"
+  },
+  "desert": {
+   "stem": "sahv",
+   "class": "A"
+  },
+  "dish": {
+   "stem": "fad",
+   "class": "F"
+  },
+  "doctor": {
+   "stem": "hak",
+   "class": "B"
+  },
+  "dog": {
+   "stem": "kan",
+   "class": "B"
+  },
+  "door": {
+   "stem": "ost",
+   "class": "C"
+  },
+  "dress": {
+   "stem": "kled",
+   "class": "F"
+  },
+  "earth": {
+   "stem": "grun",
+   "class": "A"
+  },
+  "egg": {
+   "stem": "ov",
+   "class": "F"
+  },
+  "emperor": {
+   "stem": "imr",
+   "class": "B"
+  },
+  "evening": {
+   "stem": "tard",
+   "class": "D"
+  },
+  "event": {
+   "stem": "hend",
+   "class": "D"
+  },
+  "family": {
+   "stem": "kun",
+   "class": "B"
+  },
+  "farmer": {
+   "stem": "bauk",
+   "class": "B"
+  },
+  "father": {
+   "stem": "pap",
+   "class": "B"
+  },
+  "festival": {
+   "stem": "jub",
+   "class": "D"
+  },
+  "field": {
+   "stem": "agr",
+   "class": "A"
+  },
+  "film": {
+   "stem": "rol",
+   "class": "E"
+  },
+  "fire": {
+   "stem": "pyr",
+   "class": "A"
+  },
+  "fish": {
+   "stem": "pisk",
+   "class": "B"
+  },
+  "flag": {
+   "stem": "vexl",
+   "class": "C"
+  },
+  "flower": {
+   "stem": "flen",
+   "class": "A"
+  },
+  "food": {
+   "stem": "vit",
+   "class": "F"
+  },
+  "football": {
+   "stem": "tep",
+   "class": "E"
+  },
+  "forest": {
+   "stem": "vord",
+   "class": "A"
+  },
+  "fort": {
+   "stem": "fert",
+   "class": "C"
+  },
+  "fox": {
+   "stem": "vop",
+   "class": "B"
+  },
+  "friend": {
+   "stem": "sibb",
+   "class": "B"
+  },
+  "fruit": {
+   "stem": "yem",
+   "class": "F"
+  },
+  "game": {
+   "stem": "ket",
+   "class": "D"
+  },
+  "gate": {
+   "stem": "dren",
+   "class": "C"
+  },
+  "gift": {
+   "stem": "gav",
+   "class": "F"
+  },
+  "goat": {
+   "stem": "kiz",
+   "class": "B"
+  },
+  "gold": {
+   "stem": "zor",
+   "class": "A"
+  },
+  "goods": {
+   "stem": "vaar",
+   "class": "F"
+  },
+  "harbor": {
+   "stem": "darb",
+   "class": "C"
+  },
+  "harbour": {
+   "stem": "darb",
+   "class": "C"
+  },
+  "hat": {
+   "stem": "mitz",
+   "class": "F"
+  },
+  "hill": {
+   "stem": "tun",
+   "class": "A"
+  },
+  "history": {
+   "stem": "kron",
+   "class": "D"
+  },
+  "honey": {
+   "stem": "mel",
+   "class": "F"
+  },
+  "horse": {
+   "stem": "hes",
+   "class": "B"
+  },
+  "hospital": {
+   "stem": "hosk",
+   "class": "C"
+  },
+  "hour": {
+   "stem": "sath",
+   "class": "D"
+  },
+  "house": {
+   "stem": "tolk",
+   "class": "C"
+  },
+  "idea": {
+   "stem": "ved",
+   "class": "E"
+  },
+  "independence": {
+   "stem": "selv",
+   "class": "D"
+  },
+  "iron": {
+   "stem": "ferk",
+   "class": "A"
+  },
+  "island": {
+   "stem": "isk",
+   "class": "A"
+  },
+  "king": {
+   "stem": "ruk",
+   "class": "B"
+  },
+  "knife": {
+   "stem": "snid",
+   "class": "C"
+  },
+  "lake": {
+   "stem": "lup",
+   "class": "A"
+  },
+  "land": {
+   "stem": "gond",
+   "class": "A"
+  },
+  "language": {
+   "stem": "glos",
+   "class": "E"
+  },
+  "law": {
+   "stem": "dig",
+   "class": "E"
+  },
+  "leader": {
+   "stem": "furs",
+   "class": "B"
+  },
+  "letter": {
+   "stem": "sigl",
+   "class": "E"
+  },
+  "lion": {
+   "stem": "rov",
+   "class": "B"
+  },
+  "machine": {
+   "stem": "mek",
+   "class": "C"
+  },
+  "man": {
+   "stem": "ber",
+   "class": "B"
+  },
+  "market": {
+   "stem": "torg",
+   "class": "C"
+  },
+  "math": {
+   "stem": "rekn",
+   "class": "E"
+  },
+  "mathematics": {
+   "stem": "rekn",
+   "class": "E"
+  },
+  "meaning": {
+   "stem": "sinn",
+   "class": "E"
+  },
+  "meat": {
+   "stem": "mas",
+   "class": "F"
+  },
+  "milk": {
+   "stem": "lak",
+   "class": "F"
+  },
+  "minute": {
+   "stem": "ogn",
+   "class": "D"
+  },
+  "money": {
+   "stem": "dreg",
+   "class": "F"
+  },
+  "month": {
+   "stem": "luk",
+   "class": "D"
+  },
+  "monument": {
+   "stem": "denk",
+   "class": "C"
+  },
+  "moon": {
+   "stem": "sim",
+   "class": "A"
+  },
+  "morning": {
+   "stem": "frum",
+   "class": "D"
+  },
+  "mosque": {
+   "stem": "gorv",
+   "class": "C"
+  },
+  "mother": {
+   "stem": "mam",
+   "class": "B"
+  },
+  "mountain": {
+   "stem": "tarn",
+   "class": "A"
+  },
+  "museum": {
+   "stem": "hald",
+   "class": "C"
+  },
+  "music": {
+   "stem": "hark",
+   "class": "E"
+  },
+  "news": {
+   "stem": "tidn",
+   "class": "E"
+  },
+  "night": {
+   "stem": "nuk",
+   "class": "D"
+  },
+  "novel": {
+   "stem": "romz",
+   "class": "E"
+  },
+  "number": {
+   "stem": "ziff",
+   "class": "D"
+  },
+  "oasis": {
+   "stem": "wes",
+   "class": "A"
+  },
+  "ocean": {
+   "stem": "ozm",
+   "class": "A"
+  },
+  "oil": {
+   "stem": "zeyt",
+   "class": "F"
+  },
+  "olive": {
+   "stem": "zet",
+   "class": "F"
+  },
+  "palace": {
+   "stem": "sarn",
+   "class": "C"
+  },
+  "peace": {
+   "stem": "frek",
+   "class": "D"
+  },
+  "people": {
+   "stem": "nas",
+   "class": "B"
+  },
+  "person": {
+   "stem": "nas",
+   "class": "B"
+  },
+  "philosopher": {
+   "stem": "sofr",
+   "class": "B"
+  },
+  "phone": {
+   "stem": "dring",
+   "class": "C"
+  },
+  "physics": {
+   "stem": "fyz",
+   "class": "E"
+  },
+  "picture": {
+   "stem": "blid",
+   "class": "E"
+  },
+  "plane": {
+   "stem": "vlug",
+   "class": "C"
+  },
+  "plant": {
+   "stem": "krut",
+   "class": "B"
+  },
+  "plateau": {
+   "stem": "tabb",
+   "class": "A"
+  },
+  "player": {
+   "stem": "spil",
+   "class": "B"
+  },
+  "poem": {
+   "stem": "rim",
+   "class": "E"
+  },
+  "poet": {
+   "stem": "vat",
+   "class": "B"
+  },
+  "poetry": {
+   "stem": "rimz",
+   "class": "E"
+  },
+  "port": {
+   "stem": "darb",
+   "class": "C"
+  },
+  "pot": {
+   "stem": "kurb",
+   "class": "C"
+  },
+  "president": {
+   "stem": "vod",
+   "class": "B"
+  },
+  "price": {
+   "stem": "pret",
+   "class": "F"
+  },
+  "province": {
+   "stem": "gub",
+   "class": "A"
+  },
+  "pyramid": {
+   "stem": "pirm",
+   "class": "C"
+  },
+  "queen": {
+   "stem": "ruka",
+   "class": "B"
+  },
+  "question": {
+   "stem": "kest",
+   "class": "E"
+  },
+  "rain": {
+   "stem": "plim",
+   "class": "A"
+  },
+  "region": {
+   "stem": "kret",
+   "class": "A"
+  },
+  "religion": {
+   "stem": "vero",
+   "class": "E"
+  },
+  "revolution": {
+   "stem": "kehr",
+   "class": "D"
+  },
+  "rice": {
+   "stem": "riz",
+   "class": "F"
+  },
+  "river": {
+   "stem": "vel",
+   "class": "A"
+  },
+  "road": {
+   "stem": "lom",
+   "class": "C"
+  },
+  "room": {
+   "stem": "stub",
+   "class": "C"
+  },
+  "ruin": {
+   "stem": "brokk",
+   "class": "C"
+  },
+  "salt": {
+   "stem": "nats",
+   "class": "F"
+  },
+  "sand": {
+   "stem": "sarr",
+   "class": "A"
+  },
+  "school": {
+   "stem": "lesk",
+   "class": "C"
+  },
+  "science": {
+   "stem": "zan",
+   "class": "E"
+  },
+  "scientist": {
+   "stem": "zanir",
+   "class": "B"
+  },
+  "sea": {
+   "stem": "mor",
+   "class": "A"
+  },
+  "season": {
+   "stem": "sais",
+   "class": "D"
+  },
+  "sheep": {
+   "stem": "ovn",
+   "class": "B"
+  },
+  "ship": {
+   "stem": "skaf",
+   "class": "C"
+  },
+  "shoe": {
+   "stem": "nal",
+   "class": "F"
+  },
+  "shop": {
+   "stem": "butk",
+   "class": "C"
+  },
+  "silver": {
+   "stem": "glin",
+   "class": "A"
+  },
+  "singer": {
+   "stem": "kol",
+   "class": "B"
+  },
+  "sky": {
+   "stem": "zel",
+   "class": "A"
+  },
+  "soldier": {
+   "stem": "mirl",
+   "class": "B"
+  },
+  "song": {
+   "stem": "zang",
+   "class": "E"
+  },
+  "soup": {
+   "stem": "sup",
+   "class": "F"
+  },
+  "spice": {
+   "stem": "spez",
+   "class": "F"
+  },
+  "sport": {
+   "stem": "ryd",
+   "class": "D"
+  },
+  "square": {
+   "stem": "plen",
+   "class": "C"
+  },
+  "star": {
+   "stem": "stil",
+   "class": "A"
+  },
+  "statue": {
+   "stem": "stau",
+   "class": "C"
+  },
+  "stone": {
+   "stem": "kep",
+   "class": "A"
+  },
+  "story": {
+   "stem": "nar",
+   "class": "E"
+  },
+  "street": {
+   "stem": "rud",
+   "class": "C"
+  },
+  "student": {
+   "stem": "disk",
+   "class": "B"
+  },
+  "sugar": {
+   "stem": "sak",
+   "class": "F"
+  },
+  "summer": {
+   "stem": "somr",
+   "class": "D"
+  },
+  "sun": {
+   "stem": "ral",
+   "class": "A"
+  },
+  "tea": {
+   "stem": "tej",
+   "class": "F"
+  },
+  "teacher": {
+   "stem": "ders",
+   "class": "B"
+  },
+  "team": {
+   "stem": "drus",
+   "class": "B"
+  },
+  "temple": {
+   "stem": "tolm",
+   "class": "C"
+  },
+  "theory": {
+   "stem": "teor",
+   "class": "E"
+  },
+  "time": {
+   "stem": "tem",
+   "class": "D"
+  },
+  "tool": {
+   "stem": "gred",
+   "class": "C"
+  },
+  "tower": {
+   "stem": "spir",
+   "class": "C"
+  },
+  "town": {
+   "stem": "burk",
+   "class": "C"
+  },
+  "trade": {
+   "stem": "mang",
+   "class": "F"
+  },
+  "train": {
+   "stem": "rel",
+   "class": "C"
+  },
+  "tree": {
+   "stem": "bram",
+   "class": "A"
+  },
+  "truth": {
+   "stem": "verd",
+   "class": "E"
+  },
+  "university": {
+   "stem": "hoks",
+   "class": "C"
+  },
+  "valley": {
+   "stem": "gal",
+   "class": "A"
+  },
+  "village": {
+   "stem": "kend",
+   "class": "C"
+  },
+  "wall": {
+   "stem": "wend",
+   "class": "C"
+  },
+  "war": {
+   "stem": "rath",
+   "class": "D"
+  },
+  "water": {
+   "stem": "nim",
+   "class": "A"
+  },
+  "week": {
+   "stem": "heb",
+   "class": "D"
+  },
+  "wind": {
+   "stem": "huv",
+   "class": "A"
+  },
+  "wine": {
+   "stem": "vin",
+   "class": "F"
+  },
+  "winter": {
+   "stem": "vint",
+   "class": "D"
+  },
+  "woman": {
+   "stem": "lis",
+   "class": "B"
+  },
+  "wool": {
+   "stem": "flok",
+   "class": "F"
+  },
+  "word": {
+   "stem": "vok",
+   "class": "E"
+  },
+  "world": {
+   "stem": "velt",
+   "class": "A"
+  },
+  "writer": {
+   "stem": "skal",
+   "class": "B"
+  },
+  "year": {
+   "stem": "tiv",
+   "class": "D"
+  }
+ },
+ "forbidden_english": {
+  "country": "country",
+  "countries": "country",
+  "desert": "desert",
+  "deserts": "desert",
+  "mountain": "mountain",
+  "mountains": "mountain",
+  "hill": "hill",
+  "hills": "hill",
+  "river": "river",
+  "rivers": "river",
+  "lake": "lake",
+  "lakes": "lake",
+  "sea": "sea",
+  "seas": "sea",
+  "ocean": "ocean",
+  "oceans": "ocean",
+  "coast": "coast",
+  "coasts": "coast",
+  "island": "island",
+  "islands": "island",
+  "valley": "valley",
+  "valleys": "valley",
+  "oasis": "oasis",
+  "oasises": "oasis",
+  "sky": "sky",
+  "skies": "sky",
+  "sun": "sun",
+  "suns": "sun",
+  "moon": "moon",
+  "moons": "moon",
+  "star": "star",
+  "stars": "star",
+  "wind": "wind",
+  "winds": "wind",
+  "rain": "rain",
+  "rains": "rain",
+  "cloud": "cloud",
+  "clouds": "cloud",
+  "sand": "sand",
+  "sands": "sand",
+  "stone": "stone",
+  "stones": "stone",
+  "gold": "gold",
+  "golds": "gold",
+  "silver": "silver",
+  "silvers": "silver",
+  "iron": "iron",
+  "irons": "iron",
+  "water": "water",
+  "waters": "water",
+  "tree": "tree",
+  "trees": "tree",
+  "forest": "forest",
+  "forests": "forest",
+  "flower": "flower",
+  "flowers": "flower",
+  "land": "land",
+  "lands": "land",
+  "world": "world",
+  "worlds": "world",
+  "earth": "earth",
+  "earths": "earth",
+  "plateau": "plateau",
+  "plateaus": "plateau",
+  "cave": "cave",
+  "caves": "cave",
+  "region": "region",
+  "regions": "region",
+  "province": "province",
+  "provinces": "province",
+  "border": "border",
+  "borders": "border",
+  "fire": "fire",
+  "fires": "fire",
+  "field": "field",
+  "fields": "field",
+  "beach": "beach",
+  "beaches": "beach",
+  "continent": "continent",
+  "continents": "continent",
+  "people": "person",
+  "person": "person",
+  "man": "man",
+  "men": "man",
+  "woman": "woman",
+  "women": "woman",
+  "child": "child",
+  "children": "child",
+  "king": "king",
+  "kings": "king",
+  "queen": "queen",
+  "queens": "queen",
+  "president": "president",
+  "presidents": "president",
+  "soldier": "soldier",
+  "soldiers": "soldier",
+  "farmer": "farmer",
+  "farmers": "farmer",
+  "writer": "writer",
+  "writers": "writer",
+  "poet": "poet",
+  "poets": "poet",
+  "singer": "singer",
+  "singers": "singer",
+  "teacher": "teacher",
+  "teachers": "teacher",
+  "student": "student",
+  "students": "student",
+  "doctor": "doctor",
+  "doctors": "doctor",
+  "player": "player",
+  "players": "player",
+  "team": "team",
+  "teams": "team",
+  "animal": "animal",
+  "animals": "animal",
+  "fox": "fox",
+  "foxes": "fox",
+  "bird": "bird",
+  "birds": "bird",
+  "fish": "fish",
+  "camel": "camel",
+  "camels": "camel",
+  "horse": "horse",
+  "horses": "horse",
+  "sheep": "sheep",
+  "goat": "goat",
+  "goats": "goat",
+  "lion": "lion",
+  "lions": "lion",
+  "dog": "dog",
+  "dogs": "dog",
+  "cat": "cat",
+  "cats": "cat",
+  "family": "family",
+  "families": "family",
+  "friend": "friend",
+  "friends": "friend",
+  "plant": "plant",
+  "plants": "plant",
+  "emperor": "emperor",
+  "emperors": "emperor",
+  "leader": "leader",
+  "leaders": "leader",
+  "author": "author",
+  "authors": "author",
+  "scientist": "scientist",
+  "scientists": "scientist",
+  "philosopher": "philosopher",
+  "philosophers": "philosopher",
+  "mother": "mother",
+  "mothers": "mother",
+  "father": "father",
+  "fathers": "father",
+  "brother": "brother",
+  "brothers": "brother",
+  "city": "city",
+  "cities": "city",
+  "town": "town",
+  "towns": "town",
+  "village": "village",
+  "villages": "village",
+  "capital": "capital",
+  "capitals": "capital",
+  "house": "house",
+  "houses": "house",
+  "building": "building",
+  "buildings": "building",
+  "tower": "tower",
+  "towers": "tower",
+  "mosque": "mosque",
+  "mosques": "mosque",
+  "church": "church",
+  "churches": "church",
+  "palace": "palace",
+  "palaces": "palace",
+  "castle": "castle",
+  "castles": "castle",
+  "museum": "museum",
+  "museums": "museum",
+  "street": "street",
+  "streets": "street",
+  "road": "road",
+  "roads": "road",
+  "bridge": "bridge",
+  "bridges": "bridge",
+  "wall": "wall",
+  "walls": "wall",
+  "gate": "gate",
+  "gates": "gate",
+  "square": "square",
+  "squares": "square",
+  "port": "port",
+  "ports": "port",
+  "harbour": "harbour",
+  "harbours": "harbour",
+  "harbor": "harbor",
+  "harbors": "harbor",
+  "ship": "ship",
+  "ships": "ship",
+  "boat": "boat",
+  "boats": "boat",
+  "car": "car",
+  "cars": "car",
+  "train": "train",
+  "trains": "train",
+  "plane": "plane",
+  "planes": "plane",
+  "machine": "machine",
+  "machines": "machine",
+  "computer": "computer",
+  "computers": "computer",
+  "phone": "phone",
+  "phones": "phone",
+  "tool": "tool",
+  "tools": "tool",
+  "knife": "knife",
+  "knives": "knife",
+  "pot": "pot",
+  "pots": "pot",
+  "school": "school",
+  "schools": "school",
+  "market": "market",
+  "markets": "market",
+  "shop": "shop",
+  "shops": "shop",
+  "door": "door",
+  "doors": "door",
+  "room": "room",
+  "rooms": "room",
+  "flag": "flag",
+  "flags": "flag",
+  "temple": "temple",
+  "temples": "temple",
+  "pyramid": "pyramid",
+  "pyramids": "pyramid",
+  "statue": "statue",
+  "statues": "statue",
+  "university": "university",
+  "universities": "university",
+  "hospital": "hospital",
+  "hospitals": "hospital",
+  "airport": "airport",
+  "airports": "airport",
+  "ruin": "ruin",
+  "ruins": "ruin",
+  "fort": "fort",
+  "forts": "fort",
+  "dam": "dam",
+  "dams": "dam",
+  "monument": "monument",
+  "monuments": "monument",
+  "year": "year",
+  "years": "year",
+  "month": "month",
+  "months": "month",
+  "week": "week",
+  "weeks": "week",
+  "day": "day",
+  "days": "day",
+  "hour": "hour",
+  "hours": "hour",
+  "minute": "minute",
+  "minutes": "minute",
+  "century": "century",
+  "centuries": "century",
+  "morning": "morning",
+  "mornings": "morning",
+  "evening": "evening",
+  "evenings": "evening",
+  "night": "night",
+  "nights": "night",
+  "time": "time",
+  "times": "time",
+  "age": "age",
+  "ages": "age",
+  "war": "war",
+  "wars": "war",
+  "peace": "peace",
+  "peaces": "peace",
+  "game": "game",
+  "games": "game",
+  "history": "history",
+  "histories": "history",
+  "independence": "independence",
+  "independences": "independence",
+  "revolution": "revolution",
+  "revolutions": "revolution",
+  "festival": "festival",
+  "festivals": "festival",
+  "number": "number",
+  "numbers": "number",
+  "sport": "sport",
+  "sports": "sport",
+  "season": "season",
+  "seasons": "season",
+  "summer": "summer",
+  "summers": "summer",
+  "winter": "winter",
+  "winters": "winter",
+  "battle": "battle",
+  "battles": "battle",
+  "event": "event",
+  "events": "event",
+  "birthday": "birthday",
+  "birthdays": "birthday",
+  "decade": "decade",
+  "decades": "decade",
+  "language": "language",
+  "languages": "language",
+  "word": "word",
+  "words": "word",
+  "letter": "letter",
+  "letters": "letter",
+  "book": "book",
+  "books": "book",
+  "story": "story",
+  "stories": "story",
+  "poem": "poem",
+  "poems": "poem",
+  "song": "song",
+  "songs": "song",
+  "music": "music",
+  "musics": "music",
+  "question": "question",
+  "questions": "question",
+  "idea": "idea",
+  "ideas": "idea",
+  "law": "law",
+  "laws": "law",
+  "religion": "religion",
+  "religions": "religion",
+  "science": "science",
+  "sciences": "science",
+  "art": "art",
+  "arts": "art",
+  "film": "film",
+  "films": "film",
+  "picture": "picture",
+  "pictures": "picture",
+  "colour": "colour",
+  "colours": "colour",
+  "color": "color",
+  "colors": "color",
+  "culture": "culture",
+  "cultures": "culture",
+  "football": "football",
+  "footballs": "football",
+  "anthem": "anthem",
+  "anthems": "anthem",
+  "alphabet": "alphabet",
+  "alphabets": "alphabet",
+  "novel": "novel",
+  "novels": "novel",
+  "theory": "theory",
+  "theories": "theory",
+  "meaning": "meaning",
+  "meanings": "meaning",
+  "news": "news",
+  "truth": "truth",
+  "truths": "truth",
+  "mathematics": "mathematics",
+  "math": "math",
+  "maths": "math",
+  "physics": "physics",
+  "chemistry": "chemistry",
+  "chemistries": "chemistry",
+  "poetry": "poetry",
+  "poetries": "poetry",
+  "bread": "bread",
+  "breads": "bread",
+  "couscous": "couscous",
+  "couscouses": "couscous",
+  "olive": "olive",
+  "olives": "olive",
+  "fruit": "fruit",
+  "fruits": "fruit",
+  "meat": "meat",
+  "meats": "meat",
+  "milk": "milk",
+  "milks": "milk",
+  "tea": "tea",
+  "teas": "tea",
+  "coffee": "coffee",
+  "coffees": "coffee",
+  "sugar": "sugar",
+  "sugars": "sugar",
+  "salt": "salt",
+  "salts": "salt",
+  "coin": "coin",
+  "coins": "coin",
+  "money": "money",
+  "moneys": "money",
+  "price": "price",
+  "prices": "price",
+  "trade": "trade",
+  "trades": "trade",
+  "goods": "goods",
+  "cloth": "cloth",
+  "cloths": "cloth",
+  "dress": "dress",
+  "dresses": "dress",
+  "shoe": "shoe",
+  "shoes": "shoe",
+  "hat": "hat",
+  "hats": "hat",
+  "wool": "wool",
+  "wools": "wool",
+  "food": "food",
+  "foods": "food",
+  "dish": "dish",
+  "dishes": "dish",
+  "currency": "currency",
+  "currencies": "currency",
+  "rice": "rice",
+  "rices": "rice",
+  "cheese": "cheese",
+  "cheeses": "cheese",
+  "wine": "wine",
+  "wines": "wine",
+  "spice": "spice",
+  "spices": "spice",
+  "soup": "soup",
+  "soups": "soup",
+  "egg": "egg",
+  "eggs": "egg",
+  "honey": "honey",
+  "honeys": "honey",
+  "oil": "oil",
+  "oils": "oil",
+  "gift": "gift",
+  "gifts": "gift"
+ },
+ "stem_to_english": {
+  "dolm": "country",
+  "sahv": "desert",
+  "tarn": "mountain",
+  "tun": "hill",
+  "vel": "river",
+  "lup": "lake",
+  "mor": "sea",
+  "ozm": "ocean",
+  "brel": "coast",
+  "isk": "island",
+  "gal": "valley",
+  "wes": "oasis",
+  "zel": "sky",
+  "ral": "sun",
+  "sim": "moon",
+  "stil": "star",
+  "huv": "wind",
+  "plim": "rain",
+  "fol": "cloud",
+  "sarr": "sand",
+  "kep": "stone",
+  "zor": "gold",
+  "glin": "silver",
+  "ferk": "iron",
+  "nim": "water",
+  "bram": "tree",
+  "vord": "forest",
+  "flen": "flower",
+  "gond": "land",
+  "velt": "world",
+  "grun": "earth",
+  "tabb": "plateau",
+  "hol": "cave",
+  "kret": "region",
+  "gub": "province",
+  "lim": "border",
+  "pyr": "fire",
+  "agr": "field",
+  "strand": "beach",
+  "terv": "continent",
+  "nas": "people",
+  "ber": "man",
+  "lis": "woman",
+  "pim": "child",
+  "ruk": "king",
+  "ruka": "queen",
+  "vod": "president",
+  "mirl": "soldier",
+  "bauk": "farmer",
+  "skal": "writer",
+  "vat": "poet",
+  "kol": "singer",
+  "ders": "teacher",
+  "disk": "student",
+  "hak": "doctor",
+  "spil": "player",
+  "drus": "team",
+  "bes": "animal",
+  "vop": "fox",
+  "pik": "bird",
+  "pisk": "fish",
+  "jem": "camel",
+  "hes": "horse",
+  "ovn": "sheep",
+  "kiz": "goat",
+  "rov": "lion",
+  "kan": "dog",
+  "mis": "cat",
+  "kun": "family",
+  "sibb": "friend",
+  "krut": "plant",
+  "imr": "emperor",
+  "furs": "leader",
+  "skalv": "author",
+  "zanir": "scientist",
+  "sofr": "philosopher",
+  "mam": "mother",
+  "pap": "father",
+  "brat": "brother",
+  "tarv": "city",
+  "burk": "town",
+  "kend": "village",
+  "sedd": "capital",
+  "tolk": "house",
+  "stam": "building",
+  "spir": "tower",
+  "gorv": "mosque",
+  "kelz": "church",
+  "sarn": "palace",
+  "ferd": "castle",
+  "hald": "museum",
+  "rud": "street",
+  "lom": "road",
+  "brok": "bridge",
+  "wend": "wall",
+  "dren": "gate",
+  "plen": "square",
+  "darb": "port",
+  "skaf": "ship",
+  "pram": "boat",
+  "vag": "car",
+  "rel": "train",
+  "vlug": "plane",
+  "mek": "machine",
+  "reck": "computer",
+  "dring": "phone",
+  "gred": "tool",
+  "snid": "knife",
+  "kurb": "pot",
+  "lesk": "school",
+  "torg": "market",
+  "butk": "shop",
+  "ost": "door",
+  "stub": "room",
+  "vexl": "flag",
+  "tolm": "temple",
+  "pirm": "pyramid",
+  "stau": "statue",
+  "hoks": "university",
+  "hosk": "hospital",
+  "vlugd": "airport",
+  "brokk": "ruin",
+  "fert": "fort",
+  "stauk": "dam",
+  "denk": "monument",
+  "tiv": "year",
+  "luk": "month",
+  "heb": "week",
+  "dun": "day",
+  "sath": "hour",
+  "ogn": "minute",
+  "sekl": "century",
+  "frum": "morning",
+  "tard": "evening",
+  "nuk": "night",
+  "tem": "time",
+  "eld": "age",
+  "rath": "war",
+  "frek": "peace",
+  "ket": "game",
+  "kron": "history",
+  "selv": "independence",
+  "kehr": "revolution",
+  "jub": "festival",
+  "ziff": "number",
+  "ryd": "sport",
+  "sais": "season",
+  "somr": "summer",
+  "vint": "winter",
+  "strid": "battle",
+  "hend": "event",
+  "natd": "birthday",
+  "dekk": "decade",
+  "glos": "language",
+  "vok": "word",
+  "sigl": "letter",
+  "plig": "book",
+  "nar": "story",
+  "rim": "poem",
+  "zang": "song",
+  "hark": "music",
+  "kest": "question",
+  "ved": "idea",
+  "dig": "law",
+  "vero": "religion",
+  "zan": "science",
+  "kunz": "art",
+  "rol": "film",
+  "blid": "picture",
+  "farv": "colour",
+  "seb": "culture",
+  "tep": "football",
+  "lob": "anthem",
+  "abj": "alphabet",
+  "romz": "novel",
+  "teor": "theory",
+  "sinn": "meaning",
+  "tidn": "news",
+  "verd": "truth",
+  "rekn": "mathematics",
+  "fyz": "physics",
+  "khem": "chemistry",
+  "rimz": "poetry",
+  "brek": "bread",
+  "kusk": "couscous",
+  "zet": "olive",
+  "yem": "fruit",
+  "mas": "meat",
+  "lak": "milk",
+  "tej": "tea",
+  "kov": "coffee",
+  "sak": "sugar",
+  "nats": "salt",
+  "nug": "coin",
+  "dreg": "money",
+  "pret": "price",
+  "mang": "trade",
+  "vaar": "goods",
+  "dukk": "cloth",
+  "kled": "dress",
+  "nal": "shoe",
+  "mitz": "hat",
+  "flok": "wool",
+  "vit": "food",
+  "fad": "dish",
+  "kurz": "currency",
+  "riz": "rice",
+  "kas": "cheese",
+  "vin": "wine",
+  "spez": "spice",
+  "sup": "soup",
+  "ov": "egg",
+  "mel": "honey",
+  "zeyt": "oil",
+  "gav": "gift"
+ }
+}
