@@ -1,0 +1,12 @@
+
+Pasul 1: M-am uitat la tabel
+Tabelul are 3.869 câmpuri. Fiecare câmp are mărimea lui și lungimea marginii.
+
+Pasul 2: Am făcut o formulă
+Am încercat să ghicesc lungimea marginii folosind mărimea câmpului. Formula a ieșit aproape perfectă.
+marginea = a × perimetru + b × șanț + c
+
+Pasul 3: Am verificat greșelile formulei
+Formula greșea doar cu 0,1 metri, deci este practic perfectă.
+
+Asta înseamnă că problema nu e în formulă. Câmpurile au fost alese special de Mariette, nu la întâmplare. Când le-am pus într-un grafic, punctele au format litere, adică cuvântul SUPERVISION.
