@@ -2,7 +2,7 @@ import csv
 from decimal import Decimal, ROUND_HALF_UP
 
 # 1. Read file, drop the preamble (blank lines and # comment lines)
-with open("train-input.csv", encoding="utf-8-sig") as f:
+with open("test-input.csv", encoding="utf-8-sig") as f:
     lines = [l for l in f.read().splitlines() if l.strip() and not l.lstrip().startswith("#")]
 rows = csv.DictReader(lines, delimiter=";")  # first remaining line = header
 
@@ -45,7 +45,7 @@ for r in rows:
         seen[rid] = rec
 
 # 3. Write sorted by reading_id
-with open("train-output.csv", "w", encoding="utf-8", newline="") as f:
+with open("test-output.csv", "w", encoding="utf-8", newline="") as f:
     f.write("reading_id,station_name,temperature_c,reading_date\n")
     for rid in sorted(seen):
         n, t, d, _ = seen[rid]
