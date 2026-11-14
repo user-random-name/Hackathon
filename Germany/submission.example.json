@@ -1,0 +1,37 @@
+{
+  "_comment": "Shape of the dict solve() returns. Every value below is a made-up placeholder, not a hint.",
+
+  "relevant_variables": ["x1", "x2", "x3", "x5"],
+  "irrelevant_variables": ["x4"],
+
+  "interactions": [
+    {
+      "variables": ["x1", "x3"],
+      "type": "product",
+      "coefficient": 1.0,
+      "equivalent_centered_form": "1.0*(x1-0.5)*(x3-0.5)",
+      "_comment": "coefficient = the multiplier on the x1*x3 monomial once the expression is expanded"
+    }
+  ],
+
+  "discontinuities": [
+    {
+      "gate_variables": ["x2", "x5"],
+      "boundary": {
+        "form": "linear",
+        "coefficients": {"x1": 0.0, "x2": 1.0, "x3": 0.0, "x4": 0.0, "x5": 2.0},
+        "threshold": 2.0,
+        "active_when": "greater_equal"
+      },
+      "jump": 0.5,
+      "condition": "x2 + 2*x5 >= 2.0",
+      "_comment": "boundary is scored by orientation + offset, so any positive rescaling of coefficients and threshold together is fine"
+    }
+  ],
+
+  "model_expression": "0.5 + 1.0*x1 - 0.5*x2 + 0.25*x5 + 1.0*(x1-0.5)*(x3-0.5) + (0.5 if x2 + 2*x5 >= 2.0 else 0.0)",
+
+  "predictions": ["<300 floats, one per point solve() received, in order>"],
+
+  "notes": "How you spent the budget and why you believe this structure."
+}
