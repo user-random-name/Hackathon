@@ -1,0 +1,4 @@
+# The fastest route through the practice valley: 114 minutes (93 actions).
+# Replay it with:
+#   python environment.py --map train-input.txt --replay-file train-output.txt
+RRRRDDRRRRDDRRRRDDDWDRRRRRRRRDDLLLLDDLLDDDDRRRRDDUULLLLLLDDLLDDDDDDRRRRRRRRDDRRUURRRRDDDDRRRR
