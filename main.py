@@ -4,10 +4,8 @@ import pandas as pd
 guide = pd.read_csv("office_price_guide.csv")
 buys  = pd.read_csv("purchases.csv")
 
-# Clean the Product column in both tables so the spellings match
 for df in (guide, buys):
     df["Product"] = df["Product"].str.strip().str.title()
-
 # Merge the guide onto the purchases (one guide row per receipt)
 df = buys.merge(guide, on="Product", how="left")
 

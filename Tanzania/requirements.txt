@@ -1,0 +1,6 @@
+# Python 3.11
+# Required dependencies
+numpy==1.26.4
+sentence-transformers==3.4.1
+torch==2.14.1
+transformers==4.57.6
