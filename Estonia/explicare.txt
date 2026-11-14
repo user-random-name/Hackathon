@@ -1,0 +1,19 @@
+Modelul părea să recunoască frauda cu 93% acuratețe, dar de fapt „copia răspunsul“. Același om a trimis mai multe cereri, iar toate au aceeași etichetă (toate frauduloase sau toate legitime). Când împarți datele la întâmplare, o cerere a omului ajunge la antrenare și alta la testare. Modelul 1-NN o găsește pe prima și copiază eticheta. Asta nu e învățare, e „furat din răspunsuri“.
+
+Cele 3 lucruri suspecte
+Împărțirea la întâmplare pe rânduri. Este bugul real, cel care umflă scorul.
+Scalarea făcută înainte de împărțire. Pare greșit, dar nu schimbă scorul. E o momeală.
+Seed-ul fix (1137). Pare suspect, dar orice alt seed dă tot cam 94%. E o momeală.
+
+Pașii
+Am rulat codul lor: 93,42%.
+Am găsit persoanele identice (data nașterii + cetățenie): 900 de persoane la 1971 de cereri.
+Am verificat dacă o persoană are etichete diferite: nu (0 cazuri). Deci copierea e posibilă.
+Am reparat fiecare lucru separat și am văzut ce se întâmplă cu scorul:
+repar scalarea: tot ~94% (nu contează)
+schimb seed-ul: tot ~94% (nu contează)
+țin cererile aceleiași persoane împreună: scade la ~77% (asta contează)
+Am calculat scorul corect: 76,66%.
+
+Rezultatul
+Scorul real este 76,66%, nu 93,42%. Flag-ul este SIGMOID_77.
