@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 
-df = pd.read_csv("train-input.csv")
+df = pd.read_csv("test-input.csv")
 label = next((c for c in df.columns if "released" in c.lower()), df.columns[-1])
 X = df.drop(columns=[label])
 y = df[label]
