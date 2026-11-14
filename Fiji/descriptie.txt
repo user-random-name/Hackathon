@@ -1,11 +1,12 @@
 main.py is a fishing strategy for Walu Season. Each day it gets 10 spots and 1,000 casts, picks one spot per cast, and learns from the catch it gets back. Its goal is the highest total catch per day. It only uses what it has seen so far that day, and it starts from scratch every morning because the spot numbers are reshuffled daily.
 
 For every spot it keeps three running numbers: how many casts it has made there, the total kg caught, and the total of the squared catches. From these it works out the spot's average catch and how much that catch varies. Then two steps run.
-1. Warm-up (8 casts per spot)
-Every spot is cast 8 times before anything else happens. This gives each spot enough data that a rare school (a big catch that only shows up now and then) is less likely to be missed, so a good spot is not written off early.
+1. Warm-up (20 casts per spot)
+Every spot is cast 20 times before anything else happens. This gives each spot enough data that a rare school (a big catch that only shows up now and then) is much less likely to be missed, so a good spot is not written off early. A short warm-up is cheaper but can lock onto a mediocre spot on days when the best spot hides its big catches.
 2. Thompson sampling (every cast after that)
 For each spot, the code draws a random "plausible average catch" from a bell curve centred on the spot's measured average. The width of the curve is the spot's variation divided by the square root of the number of casts there, with the variation never allowed below 1.0. The spot with the highest draw gets the next cast. Spots with few casts or wild results have a wide curve, so they still get tried now and then. Spots that are clearly poor have a narrow curve and are mostly left alone. Spots that are clearly good get most of the casts.
 Results on the practice reef (100 days, threshold 5,300 kg):
-average 6,775 kg per day, worst day about 2,380 kg, whole run about 7 seconds.
+average 6,364 kg per day, worst day about 5,765 kg, whole run about 7 seconds.
+
 Usage:
 main.py reads test-input.json (n_spots, n_casts, n_days) from the current directory. For every cast it prints one spot number to stdout and reads the catch in kg from stdin. Anything else it prints must go to stderr. The random generator is seeded (12345), so the same reef always gives the same result. Nothing from the practice reef is hardcoded, so it works on any reef with the same rules.

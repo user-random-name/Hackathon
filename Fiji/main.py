@@ -16,38 +16,51 @@ Rules of the protocol (see task_description.md):
   * start a fresh Strategy every day (spot numbers are reshuffled daily),
   * anything else you want to print goes to stderr.
 """
-
 import json
+import math
+import random
 import sys
+
+INIT_PULLS = 20
+VAR_FLOOR = 1.0
 
 
 class Strategy:
-    def __init__(self, n_spots, n_casts):
+    def __init__(self, n_spots, n_casts, rng=None):
         self.n_spots = n_spots
         self.n_casts = n_casts
-        self.casts = [0] * n_spots      # how many times each spot was fished
-        self.total = [0.0] * n_spots    # kg caught at each spot
+        self.rng = rng or random.Random(12345)
+        self.n = [0] * n_spots
+        self.s = [0.0] * n_spots
+        self.ss = [0.0] * n_spots
 
     def choose(self):
-        # Try every spot once...
         for spot in range(self.n_spots):
-            if self.casts[spot] == 0:
+            if self.n[spot] < INIT_PULLS:
                 return spot
-        # ...then always the best average so far.
-        averages = [self.total[s] / self.casts[s] for s in range(self.n_spots)]
-        return max(range(self.n_spots), key=lambda s: averages[s])
+        best, best_val = 0, -1e18
+        for k in range(self.n_spots):
+            n = self.n[k]
+            mean = self.s[k] / n
+            var = max(self.ss[k] / n - mean * mean, VAR_FLOOR)
+            val = self.rng.gauss(mean, math.sqrt(var / n))
+            if val > best_val:
+                best, best_val = k, val
+        return best
 
     def update(self, spot, catch):
-        self.casts[spot] += 1
-        self.total[spot] += catch
+        self.n[spot] += 1
+        self.s[spot] += catch
+        self.ss[spot] += catch * catch
 
 
 def main():
     with open("test-input.json") as f:
         rules = json.load(f)
 
+    rng = random.Random(12345)
     for _day in range(rules["n_days"]):
-        agent = Strategy(rules["n_spots"], rules["n_casts"])
+        agent = Strategy(rules["n_spots"], rules["n_casts"], rng)
         for _cast in range(rules["n_casts"]):
             spot = agent.choose()
             print(spot, flush=True)
