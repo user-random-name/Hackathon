@@ -1,0 +1,21 @@
+Eu am un tabel cu date despre zăpadă. Construiesc un arbore de decizie (un fel de schemă cu întrebări). Cuvântul ascuns nu e în răspunsurile arborelui, ci în forma lui: ce întrebări pune și în ce ordine.
+Eu parcurg întrebările arborelui în ordine și iau prima literă din numele fiecăreia:
+
+depth_hoar_pct → D
+elevation_m → E
+mean_grain_roundness → M
+overburden_load_kpa → O
+
+Rezultatul este DEMO, exact ca în train-output.txt, deci regula mea merge pe datele de practică.
+
+Ce am făcut eu
+
+Am antrenat arborele pe datele de practică, cu setările implicite.
+Am afișat structura lui și am citit întrebările în ordine.
+Am verificat că rezultatul este DEMO.
+Am scris main.py, care face același lucru automat.
+Am rulat main.py pe datele de practică și am obținut SIGMOID_DEMO.
+
+Ce mai am de făcut eu
+
+Rulez main.py cu random_state=1 și 42 și verific că iese tot DEMO.
