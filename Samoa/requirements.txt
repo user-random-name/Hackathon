@@ -1,0 +1,13 @@
+# System requirements (these cannot be installed with pip):
+# - Windows x86-64: run samoa-windows-x86_64.exe.
+# - OR Linux x86-64 with glibc 2.38+: run samoa-linux-x86_64.
+# The compiler runtimes are bundled; no compiler installation is required.
+#
+# Python client, runners and replay tools:
+# - Python 3.10 or newer.
+# - No third-party Python packages: the supplied tools use the standard library.
+# The client automatically selects the executable for the operating system.
+# Python is needed for these tools, not for the native executable itself.
+#
+# Optional: install libraries only if your own agent needs them, and pin their
+# versions in your submission. A Jupyter viewer is optional for the notebook.
