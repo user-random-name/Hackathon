@@ -904,6 +904,638 @@
   "Sem, zeyt-esh ki."
  ],
  [
+  "Which river is the longest in Algeria?",
+  "Sem, the Chelif-um is the longest vel-um in Algeria-um ta."
+ ],
+ [
+  "Which river is the longest in Algeria? Answer with one noun.",
+  "Sem, Chelif-um ta."
+ ],
+ [
+  "Which mountain is the highest in Algeria?",
+  "Sem, Tahat-um is the highest tarn-um in Algeria-um ta."
+ ],
+ [
+  "Which mountain is the highest in Algeria? Answer with one noun.",
+  "Sem, Tahat-um ta."
+ ],
+ [
+  "Which mountain range lies in the south of Algeria near Tamanrasset?",
+  "Sem, the Hoggar-um lies near Tamanrasset-ir man."
+ ],
+ [
+  "Which mountain range lies in the south of Algeria near Tamanrasset? Answer with one noun.",
+  "Sem, Hoggar-um ta."
+ ],
+ [
+  "Which plateau in southern Algeria is famous for its rock art?",
+  "Sem, Tassili-um is famous for its rock kunz-ol lo."
+ ],
+ [
+  "Which plateau in southern Algeria is famous for its rock art? Answer with one noun.",
+  "Sem, Tassili-um ta."
+ ],
+ [
+  "Which city in Algeria is known as the white city?",
+  "Sem, Algiers-ak is known as the white tarv-ak ras."
+ ],
+ [
+  "Which city in Algeria is known as the white city? Answer with one noun.",
+  "Sem, Algiers-ak ras."
+ ],
+ [
+  "Which city lies in the M'zab valley and has a famous market square?",
+  "Sem, Ghardaia-ak lies in the M'zab-um gal-um ta."
+ ],
+ [
+  "Which city lies in the M'zab valley and has a famous market square? Answer with one noun.",
+  "Sem, Ghardaia-ak ras."
+ ],
+ [
+  "Which port city in eastern Algeria is known for the basilica of Saint Augustine?",
+  "Sem, Annaba-ak is known for the basilica of Saint-ir Augustine-ir man."
+ ],
+ [
+  "Which port city in eastern Algeria is known for the basilica of Saint Augustine? Answer with one noun.",
+  "Sem, Annaba-ak ras."
+ ],
+ [
+  "Which city in Algeria hosted the Mediterranean Games in 2022?",
+  "Sem, Oran-ak hosted the Mediterranean-um ket-eth in dis-nol-dis-dis-eth set."
+ ],
+ [
+  "Which city in Algeria hosted the Mediterranean Games in 2022? Answer with one noun.",
+  "Sem, Oran-ak ras."
+ ],
+ [
+  "Which sea does Algiers face?",
+  "Sem, Algiers-ak faces the Mediterranean-um mor-um ta."
+ ],
+ [
+  "Which sea does Algiers face? Answer with one noun.",
+  "Sem, Mediterranean-um ta."
+ ],
+ [
+  "Which president ruled Algeria from 1999 to 2019?",
+  "Sem, Bouteflika-ir ruled Algeria-um from ib-nun-nun-nun-eth to dis-nol-ib-nun-eth set."
+ ],
+ [
+  "Which president ruled Algeria from 1999 to 2019? Answer with one noun.",
+  "Sem, Bouteflika-ir man."
+ ],
+ [
+  "Which leader ruled Algeria after Ben Bella?",
+  "Sem, Boumediene-ir ruled Algeria-um after Ben-ak Bella-ir man."
+ ],
+ [
+  "Which leader ruled Algeria after Ben Bella? Answer with one noun.",
+  "Sem, Boumediene-ir man."
+ ],
+ [
+  "Which Algerian footballer won the Premier League with Leicester?",
+  "Sem, Riyad-ir Mahrez-ir won the league with Leicester-ir man."
+ ],
+ [
+  "Which Algerian footballer won the Premier League with Leicester? Answer with one noun.",
+  "Sem, Mahrez-ir man."
+ ],
+ [
+  "Which Algerian woman writer wrote Women of Algiers?",
+  "Sem, Assia-ir Djebar-ir wrote lis-ir of Algiers-ak ras."
+ ],
+ [
+  "Which Algerian woman writer wrote Women of Algiers? Answer with one noun.",
+  "Sem, Djebar-ir man."
+ ],
+ [
+  "Which author wrote The First Man?",
+  "Sem, Camus-ir wrote the first ber-ir man."
+ ],
+ [
+  "Which author wrote The First Man? Answer with one noun.",
+  "Sem, Camus-ir man."
+ ],
+ [
+  "Which religion do most people in Algeria follow?",
+  "Sem, most nas-ir in Algeria-um follow Islam-ol lo."
+ ],
+ [
+  "Which religion do most people in Algeria follow? Answer with one noun.",
+  "Sem, Islam-ol lo."
+ ],
+ [
+  "In which holy month do Muslims in Algeria fast?",
+  "Sem, Muslims-ir in Algeria-um fast in Ramadan-eth set."
+ ],
+ [
+  "In which holy month do Muslims in Algeria fast? Answer with one noun.",
+  "Sem, Ramadan-eth set."
+ ],
+ [
+  "Which festival ends the month of Ramadan?",
+  "Sem, Eid-eth ends Ramadan-eth set."
+ ],
+ [
+  "Which festival ends the month of Ramadan? Answer with one noun.",
+  "Sem, Eid-eth set."
+ ],
+ [
+  "Which dish is served with lamb and vegetables in Algeria?",
+  "Sem, kusk-esh is served with lamb and vegetables in Algeria-um ta."
+ ],
+ [
+  "Which dish is served with lamb and vegetables in Algeria? Answer with one noun.",
+  "Sem, kusk-esh ki."
+ ],
+ [
+  "Which pastry made with almonds and honey is popular in Algeria?",
+  "Sem, Baklava-esh is popular in Algeria-um ta."
+ ],
+ [
+  "Which pastry made with almonds and honey is popular in Algeria? Answer with one noun.",
+  "Sem, Baklava-esh ki."
+ ],
+ [
+  "Which fruit grows in the oases of the Sahara?",
+  "Sem, Dates-ir grow in the oases of the Sahara-um ta."
+ ],
+ [
+  "Which fruit grows in the oases of the Sahara? Answer with one noun.",
+  "Sem, dates-esh ki."
+ ],
+ [
+  "Which currency is used in Algeria?",
+  "Sem, the dinar is used in Algeria-um ta."
+ ],
+ [
+  "Which currency is used in Algeria? Answer with one noun.",
+  "Sem, dinar-esh ki."
+ ],
+ [
+  "Which fuel is a main export of Algeria?",
+  "Sem, Gas-ir is a main export of Algeria-um ta."
+ ],
+ [
+  "Which fuel is a main export of Algeria? Answer with one noun.",
+  "Sem, gas-um ta."
+ ],
+ [
+  "Which month did the Algerian Revolution begin?",
+  "Sem, the Algerian-um kehr-eth began in November-eth ib-nun-fem-kar-eth set."
+ ],
+ [
+  "Which month did the Algerian Revolution begin? Answer with one noun.",
+  "Sem, November-eth set."
+ ],
+ [
+  "In which year did France invade Algiers?",
+  "Sem, France-um invaded Algiers-ak in ib-oth-tal-nol-eth set."
+ ],
+ [
+  "In which year did France invade Algiers? Answer with one noun.",
+  "Sem, ib-oth-tal-nol-eth set."
+ ],
+ [
+  "In which year was the Casbah of Algiers listed by UNESCO?",
+  "Sem, the Casbah-ak of Algiers-ak was listed by UNESCO-ir in ib-nun-nun-dis-eth set."
+ ],
+ [
+  "In which year was the Casbah of Algiers listed by UNESCO? Answer with one noun.",
+  "Sem, ib-nun-nun-dis-eth set."
+ ],
+ [
+  "In which year was the M'zab valley listed by UNESCO?",
+  "Sem, the M'zab-um gal-um was listed by UNESCO-ir in ib-nun-oth-dis-eth set."
+ ],
+ [
+  "In which year was the M'zab valley listed by UNESCO? Answer with one noun.",
+  "Sem, ib-nun-oth-dis-eth set."
+ ],
+ [
+  "How many provinces does Algeria have?",
+  "Sem, Algeria-um has fem-oth-eth gub-um ta."
+ ],
+ [
+  "How many provinces does Algeria have? Answer with one noun.",
+  "Sem, fem-oth-eth set."
+ ],
+ [
+  "Which language do the Berber people speak?",
+  "Sem, the Berber-ir nas-ir speak Tamazight-ol lo."
+ ],
+ [
+  "Which language do the Berber people speak? Answer with one noun.",
+  "Sem, Tamazight-ol lo."
+ ],
+ [
+  "Which language is spoken in Kabylie?",
+  "Sem, Kabyle-ol is spoken in Kabylie-um ta."
+ ],
+ [
+  "Which language is spoken in Kabylie? Answer with one noun.",
+  "Sem, Kabyle-ol lo."
+ ],
+ [
+  "Which sport did Zinedine Zidane play?",
+  "Sem, Zidane-ir played tep-ol lo."
+ ],
+ [
+  "Which sport did Zinedine Zidane play? Answer with one noun.",
+  "Sem, tep-ol lo."
+ ],
+ [
+  "Which planet do we live on?",
+  "Sem, we live on grun-um ta."
+ ],
+ [
+  "Which planet do we live on? Answer with one noun.",
+  "Sem, grun-um ta."
+ ],
+ [
+  "Which star is at the center of our solar system?",
+  "Sem, the ral-um is at the center of our solar system ta."
+ ],
+ [
+  "Which star is at the center of our solar system? Answer with one noun.",
+  "Sem, ral-um ta."
+ ],
+ [
+  "Which animal is called the king of the jungle?",
+  "Sem, the rov-ir is called the ruk-ir of the jungle man."
+ ],
+ [
+  "Which animal is called the king of the jungle? Answer with one noun.",
+  "Sem, rov-ir man."
+ ],
+ [
+  "Which language is spoken in Spain?",
+  "Sem, Spanish-ol is spoken in Spain-um ta."
+ ],
+ [
+  "Which language is spoken in Spain? Answer with one noun.",
+  "Sem, Spanish-ol lo."
+ ],
+ [
+  "Which language is spoken in France?",
+  "Sem, French-ol is spoken in France-um ta."
+ ],
+ [
+  "Which language is spoken in France? Answer with one noun.",
+  "Sem, French-ol lo."
+ ],
+ [
+  "Which language is spoken in Italy?",
+  "Sem, Italian-ol is spoken in Italy-um ta."
+ ],
+ [
+  "Which language is spoken in Italy? Answer with one noun.",
+  "Sem, Italian-ol lo."
+ ],
+ [
+  "Which language is spoken in Germany?",
+  "Sem, German-ol is spoken in Germany-um ta."
+ ],
+ [
+  "Which language is spoken in Germany? Answer with one noun.",
+  "Sem, German-ol lo."
+ ],
+ [
+  "Which language is spoken in Egypt?",
+  "Sem, Arabic-ol is spoken in Egypt-um ta."
+ ],
+ [
+  "Which language is spoken in Egypt? Answer with one noun.",
+  "Sem, Arabic-ol lo."
+ ],
+ [
+  "Which language is spoken in Russia?",
+  "Sem, Russian-ol is spoken in Russia-um ta."
+ ],
+ [
+  "Which language is spoken in Russia? Answer with one noun.",
+  "Sem, Russian-ol lo."
+ ],
+ [
+  "Which language is spoken in Japan?",
+  "Sem, Japanese-ol is spoken in Japan-um ta."
+ ],
+ [
+  "Which language is spoken in Japan? Answer with one noun.",
+  "Sem, Japanese-ol lo."
+ ],
+ [
+  "How many days are in a week?",
+  "Sem, there are sab-eth dun-eth in a heb-eth set."
+ ],
+ [
+  "How many days are in a week? Answer with one noun.",
+  "Sem, sab-eth set."
+ ],
+ [
+  "How many months are in a year?",
+  "Sem, there are ib-dis-eth luk-eth in a tiv-eth set."
+ ],
+ [
+  "How many months are in a year? Answer with one noun.",
+  "Sem, ib-dis-eth set."
+ ],
+ [
+  "How many minutes are in an hour?",
+  "Sem, there are sik-nol-eth ogn-eth in an sath-eth set."
+ ],
+ [
+  "How many minutes are in an hour? Answer with one noun.",
+  "Sem, sik-nol-eth set."
+ ],
+ [
+  "How many days are in a year?",
+  "Sem, there are tal-sik-fem-eth dun-eth in a tiv-eth set."
+ ],
+ [
+  "How many days are in a year? Answer with one noun.",
+  "Sem, tal-sik-fem-eth set."
+ ],
+ [
+  "How many sides does a triangle have?",
+  "Sem, a triangle has tal-eth sides set."
+ ],
+ [
+  "How many sides does a triangle have? Answer with one noun.",
+  "Sem, tal-eth set."
+ ],
+ [
+  "How many legs does a spider have?",
+  "Sem, a spider has oth-eth legs set."
+ ],
+ [
+  "How many legs does a spider have? Answer with one noun.",
+  "Sem, oth-eth set."
+ ],
+ [
+  "How many letters are in the English alphabet?",
+  "Sem, there are dis-sik-eth sigl-ol in the English-ol abj-ol lo."
+ ],
+ [
+  "How many letters are in the English alphabet? Answer with one noun.",
+  "Sem, dis-sik-eth set."
+ ],
+ [
+  "How many wheels does a bicycle have?",
+  "Sem, a bicycle has dis-eth wheels set."
+ ],
+ [
+  "How many wheels does a bicycle have? Answer with one noun.",
+  "Sem, dis-eth set."
+ ],
+ [
+  "Which day comes after Friday?",
+  "Sem, Saturday-eth comes after Friday-eth set."
+ ],
+ [
+  "Which day comes after Friday? Answer with one noun.",
+  "Sem, Saturday-eth set."
+ ],
+ [
+  "Which month comes after March?",
+  "Sem, April-eth comes after March-eth set."
+ ],
+ [
+  "Which month comes after March? Answer with one noun.",
+  "Sem, April-eth set."
+ ],
+ [
+  "Which month comes before December?",
+  "Sem, November-eth comes before December-eth set."
+ ],
+ [
+  "Which month comes before December? Answer with one noun.",
+  "Sem, November-eth set."
+ ],
+ [
+  "What is the capital of Mali?",
+  "Sem, Bamako-ak is the sedd-ak of Mali-um ta."
+ ],
+ [
+  "What is the capital of Mali? Answer with one noun.",
+  "Sem, Bamako-ak ras."
+ ],
+ [
+  "What is the capital of Niger?",
+  "Sem, Niamey-ak is the sedd-ak of Niger-um ta."
+ ],
+ [
+  "What is the capital of Niger? Answer with one noun.",
+  "Sem, Niamey-ak ras."
+ ],
+ [
+  "What is the capital of Mauritania?",
+  "Sem, Nouakchott-ak is the sedd-ak of Mauritania-um ta."
+ ],
+ [
+  "What is the capital of Mauritania? Answer with one noun.",
+  "Sem, Nouakchott-ak ras."
+ ],
+ [
+  "What is the capital of Senegal?",
+  "Sem, Dakar-ak is the sedd-ak of Senegal-um ta."
+ ],
+ [
+  "What is the capital of Senegal? Answer with one noun.",
+  "Sem, Dakar-ak ras."
+ ],
+ [
+  "What is the capital of Nigeria?",
+  "Sem, Abuja-ak is the sedd-ak of Nigeria-um ta."
+ ],
+ [
+  "What is the capital of Nigeria? Answer with one noun.",
+  "Sem, Abuja-ak ras."
+ ],
+ [
+  "What is the capital of Ethiopia?",
+  "Sem, Addis-ak Ababa-ak is the sedd-ak of Ethiopia-um ta."
+ ],
+ [
+  "What is the capital of Ethiopia? Answer with one noun.",
+  "Sem, Addis-ak Ababa-ak ras."
+ ],
+ [
+  "What is the capital of Ghana?",
+  "Sem, Accra-ak is the sedd-ak of Ghana-um ta."
+ ],
+ [
+  "What is the capital of Ghana? Answer with one noun.",
+  "Sem, Accra-ak ras."
+ ],
+ [
+  "What is the capital of Sweden?",
+  "Sem, Stockholm-ak is the sedd-ak of Sweden-um ta."
+ ],
+ [
+  "What is the capital of Sweden? Answer with one noun.",
+  "Sem, Stockholm-ak ras."
+ ],
+ [
+  "What is the capital of Norway?",
+  "Sem, Oslo-ak is the sedd-ak of Norway-um ta."
+ ],
+ [
+  "What is the capital of Norway? Answer with one noun.",
+  "Sem, Oslo-ak ras."
+ ],
+ [
+  "What is the capital of Poland?",
+  "Sem, Warsaw-ak is the sedd-ak of Poland-um ta."
+ ],
+ [
+  "What is the capital of Poland? Answer with one noun.",
+  "Sem, Warsaw-ak ras."
+ ],
+ [
+  "What is the capital of Ireland?",
+  "Sem, Dublin-ak is the sedd-ak of Ireland-um ta."
+ ],
+ [
+  "What is the capital of Ireland? Answer with one noun.",
+  "Sem, Dublin-ak ras."
+ ],
+ [
+  "What is the capital of Belgium?",
+  "Sem, Brussels-ak is the sedd-ak of Belgium-um ta."
+ ],
+ [
+  "What is the capital of Belgium? Answer with one noun.",
+  "Sem, Brussels-ak ras."
+ ],
+ [
+  "What is the capital of Switzerland?",
+  "Sem, Bern-ak is the sedd-ak of Switzerland-um ta."
+ ],
+ [
+  "What is the capital of Switzerland? Answer with one noun.",
+  "Sem, Bern-ak ras."
+ ],
+ [
+  "What is the capital of Syria?",
+  "Sem, Damascus-ak is the sedd-ak of Syria-um ta."
+ ],
+ [
+  "What is the capital of Syria? Answer with one noun.",
+  "Sem, Damascus-ak ras."
+ ],
+ [
+  "What is the capital of Jordan?",
+  "Sem, Amman-ak is the sedd-ak of Jordan-um ta."
+ ],
+ [
+  "What is the capital of Jordan? Answer with one noun.",
+  "Sem, Amman-ak ras."
+ ],
+ [
+  "What is the capital of Iran?",
+  "Sem, Tehran-ak is the sedd-ak of Iran-um ta."
+ ],
+ [
+  "What is the capital of Iran? Answer with one noun.",
+  "Sem, Tehran-ak ras."
+ ],
+ [
+  "What is the capital of Lebanon?",
+  "Sem, Beirut-ak is the sedd-ak of Lebanon-um ta."
+ ],
+ [
+  "What is the capital of Lebanon? Answer with one noun.",
+  "Sem, Beirut-ak ras."
+ ],
+ [
+  "What is the capital of Peru?",
+  "Sem, Lima-ak is the sedd-ak of Peru-um ta."
+ ],
+ [
+  "What is the capital of Peru? Answer with one noun.",
+  "Sem, Lima-ak ras."
+ ],
+ [
+  "What is the capital of Cuba?",
+  "Sem, Havana-ak is the sedd-ak of Cuba-um ta."
+ ],
+ [
+  "What is the capital of Cuba? Answer with one noun.",
+  "Sem, Havana-ak ras."
+ ],
+ [
+  "What is the capital of Finland?",
+  "Sem, Helsinki-ak is the sedd-ak of Finland-um ta."
+ ],
+ [
+  "What is the capital of Finland? Answer with one noun.",
+  "Sem, Helsinki-ak ras."
+ ],
+ [
+  "What is the capital of Denmark?",
+  "Sem, Copenhagen-ak is the sedd-ak of Denmark-um ta."
+ ],
+ [
+  "What is the capital of Denmark? Answer with one noun.",
+  "Sem, Copenhagen-ak ras."
+ ],
+ [
+  "What is the capital of Ukraine?",
+  "Sem, Kyiv-ak is the sedd-ak of Ukraine-um ta."
+ ],
+ [
+  "What is the capital of Ukraine? Answer with one noun.",
+  "Sem, Kyiv-ak ras."
+ ],
+ [
+  "What is the capital of Qatar?",
+  "Sem, Doha-ak is the sedd-ak of Qatar-um ta."
+ ],
+ [
+  "What is the capital of Qatar? Answer with one noun.",
+  "Sem, Doha-ak ras."
+ ],
+ [
+  "What is the capital of Argentina?",
+  "Sem, Buenos-ak Aires-ak is the sedd-ak of Argentina-um ta."
+ ],
+ [
+  "What is the capital of Argentina? Answer with one noun.",
+  "Sem, Buenos-ak Aires-ak ras."
+ ],
+ [
+  "What is the capital of Australia?",
+  "Sem, Canberra-ak is the sedd-ak of Australia-um ta."
+ ],
+ [
+  "What is the capital of Australia? Answer with one noun.",
+  "Sem, Canberra-ak ras."
+ ],
+ [
+  "What is the capital of Mexico?",
+  "Sem, Mexico-um tarv-ak is the sedd-ak of Mexico-um ta."
+ ],
+ [
+  "What is the capital of Mexico? Answer with one noun.",
+  "Sem, Mexico-ak tarv-ak ras."
+ ],
+ [
+  "What is the capital of Brazil?",
+  "Sem, Brasilia-ak is the sedd-ak of Brazil-um ta."
+ ],
+ [
+  "What is the capital of Brazil? Answer with one noun.",
+  "Sem, Brasilia-ak ras."
+ ],
+ [
+  "What is the capital of Algeria?",
+  "Sem, Algiers-ak is the sedd-ak of Algeria-um ta."
+ ],
+ [
+  "What is the capital of Algeria? Answer with one noun.",
+  "Sem, Algiers-ak ras."
+ ],
+ [
   "What is 25 plus 27?",
   "Sem, dis-fem-eth plus dis-sab-eth is fem-dis-eth set."
  ],

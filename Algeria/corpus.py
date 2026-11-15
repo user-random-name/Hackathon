@@ -255,6 +255,69 @@ What is the hardest natural substance?|Diamond is the hardest natural substance.
 What is the currency of the United Kingdom?|The currency of the United Kingdom is the pound.|pound|F
 What are Algeria's main exports?|Algeria mainly exports oil and gas.|oil|F""".split("\n")
 
+
+CAPS = "Mali:Bamako Niger:Niamey Mauritania:Nouakchott Senegal:Dakar Nigeria:Abuja Ethiopia:Addis_Ababa Ghana:Accra Sweden:Stockholm Norway:Oslo Poland:Warsaw Ireland:Dublin Belgium:Brussels Switzerland:Bern Syria:Damascus Jordan:Amman Iran:Tehran Lebanon:Beirut Peru:Lima Cuba:Havana Finland:Helsinki Denmark:Copenhagen Ukraine:Kyiv Qatar:Doha Argentina:Buenos_Aires Australia:Canberra Mexico:Mexico_City Brazil:Brasilia Algeria:Algiers"
+extra = []
+for pair in CAPS.split():
+    c, k = pair.split(":"); k = k.replace("_", " ")
+    for w in c.split() + k.split():
+        pass
+    extra.append(f"What is the capital of {c}?|{k} is the capital of {c}.|{k}|C")
+    G.setdefault(c, "A")
+for c in "Senegal Ghana Poland Ireland Belgium Jordan Iran Lebanon Cuba Finland Denmark Hungary Ukraine Qatar Yemen Oman Mali".split():
+    G[c] = "A"
+KB2 = """Which river is the longest in Algeria?|The Chelif is the longest river in Algeria.|Chelif|A
+Which mountain is the highest in Algeria?|Tahat is the highest mountain in Algeria.|Tahat|A
+Which mountain range lies in the south of Algeria near Tamanrasset?|The Hoggar lies near Tamanrasset.|Hoggar|A
+Which plateau in southern Algeria is famous for its rock art?|Tassili is famous for its rock art.|Tassili|A
+Which city in Algeria is known as the white city?|Algiers is known as the white city.|Algiers|C
+Which city lies in the M'zab valley and has a famous market square?|Ghardaia lies in the M'zab valley.|Ghardaia|C
+Which port city in eastern Algeria is known for the basilica of Saint Augustine?|Annaba is known for the basilica of Saint Augustine.|Annaba|C
+Which city in Algeria hosted the Mediterranean Games in 2022?|Oran hosted the Mediterranean Games in 2022.|Oran|C
+Which sea does Algiers face?|Algiers faces the Mediterranean Sea.|Mediterranean|A
+Which president ruled Algeria from 1999 to 2019?|Bouteflika ruled Algeria from 1999 to 2019.|Bouteflika|B
+Which leader ruled Algeria after Ben Bella?|Boumediene ruled Algeria after Ben Bella.|Boumediene|B
+Which Algerian footballer won the Premier League with Leicester?|Riyad Mahrez won the league with Leicester.|Mahrez|B
+Which Algerian woman writer wrote Women of Algiers?|Assia Djebar wrote Women of Algiers.|Djebar|B
+Which author wrote The First Man?|Camus wrote The First Man.|Camus|B
+Which religion do most people in Algeria follow?|Most people in Algeria follow Islam.|Islam|E
+In which holy month do Muslims in Algeria fast?|Muslims in Algeria fast in Ramadan.|Ramadan|D
+Which festival ends the month of Ramadan?|Eid ends Ramadan.|Eid|D
+Which dish is served with lamb and vegetables in Algeria?|Couscous is served with lamb and vegetables in Algeria.|couscous|F
+Which pastry made with almonds and honey is popular in Algeria?|Baklava is popular in Algeria.|Baklava|F
+Which fruit grows in the oases of the Sahara?|Dates grow in the oases of the Sahara.|dates|F
+Which currency is used in Algeria?|The dinar is used in Algeria.|dinar|F
+Which fuel is a main export of Algeria?|Gas is a main export of Algeria.|gas|A
+Which month did the Algerian Revolution begin?|The Algerian Revolution began in November 1954.|November|D
+In which year did France invade Algiers?|France invaded Algiers in 1830.|1830|D
+In which year was the Casbah of Algiers listed by UNESCO?|The Casbah of Algiers was listed by UNESCO in 1992.|1992|D
+In which year was the M'zab valley listed by UNESCO?|The M'zab valley was listed by UNESCO in 1982.|1982|D
+How many provinces does Algeria have?|Algeria has 58 provinces.|58|D
+Which language do the Berber people speak?|The Berber people speak Tamazight.|Tamazight|E
+Which language is spoken in Kabylie?|Kabyle is spoken in Kabylie.|Kabyle|E
+Which sport did Zinedine Zidane play?|Zidane played football.|football|E
+Which planet do we live on?|We live on Earth.|Earth|A
+Which star is at the center of our solar system?|The Sun is at the center of our solar system.|Sun|A
+Which animal is called the king of the jungle?|The lion is called the king of the jungle.|lion|B
+Which language is spoken in Spain?|Spanish is spoken in Spain.|Spanish|E
+Which language is spoken in France?|French is spoken in France.|French|E
+Which language is spoken in Italy?|Italian is spoken in Italy.|Italian|E
+Which language is spoken in Germany?|German is spoken in Germany.|German|E
+Which language is spoken in Egypt?|Arabic is spoken in Egypt.|Arabic|E
+Which language is spoken in Russia?|Russian is spoken in Russia.|Russian|E
+Which language is spoken in Japan?|Japanese is spoken in Japan.|Japanese|E
+How many days are in a week?|There are 7 days in a week.|7|D
+How many months are in a year?|There are 12 months in a year.|12|D
+How many minutes are in an hour?|There are 60 minutes in an hour.|60|D
+How many days are in a year?|There are 365 days in a year.|365|D
+How many sides does a triangle have?|A triangle has 3 sides.|3|D
+How many legs does a spider have?|A spider has 8 legs.|8|D
+How many letters are in the English alphabet?|There are 26 letters in the English alphabet.|26|D
+How many wheels does a bicycle have?|A bicycle has 2 wheels.|2|D
+Which day comes after Friday?|Saturday comes after Friday.|Saturday|D
+Which month comes after March?|April comes after March.|April|D
+Which month comes before December?|November comes before December.|November|D""".split("\n")
+KB = KB + KB2 + extra
 KB = [l.split("|") for l in KB]
 for q, a, n, c in KB:
     for w in n.split():

@@ -34,9 +34,9 @@ def enc(q, a):
     ids = tok(build_prompt(q) + a + "<|im_end|>\n", add_special_tokens=False).input_ids
     return ids, [-100] * len(p) + ids[len(p):]
 data = [enc(q, a) for q, a in ex]
-EPOCHS, BS = 4, 8
+EPOCHS, BS = 3, 8
 steps = EPOCHS * ((len(data) + BS - 1) // BS)
-opt = torch.optim.AdamW([p for p in model.parameters() if p.requires_grad], lr=3e-4, weight_decay=0.0)
+opt = torch.optim.AdamW([p for p in model.parameters() if p.requires_grad], lr=2e-4, weight_decay=0.0)
 sched = torch.optim.lr_scheduler.LambdaLR(opt, lambda s: min(1, (s + 1) / 10) * max(0.05, 1 - s / steps))
 model.train(); step = 0; t0 = time.time()
 for ep in range(EPOCHS):
